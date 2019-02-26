@@ -1,0 +1,5 @@
+.stack-work/
+brackets-hs.cabal
+*~
+.idea
+*.iml
