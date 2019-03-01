@@ -1,6 +1,8 @@
 module Main where
 
-import Lib
+import System.Environment
+import Example
 
 main :: IO ()
-main = someFunc
+main = do [string] <- getArgs
+          print $ isValid string
